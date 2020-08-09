@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from todo-app-wm5689.web.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Aug 2020 06:09:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<style>
+  body {
+    background-image: url(BackGround.jpg);
+    display: block;
+    /* margin: 126px; */
+  }
+
+  .btn {
+    color: rgb(250, 128, 14);
+    left: 2px;
+  }
+
+  .todo {
+    text-align: center;
+    margin-top: 80px;
+    width: 400px;
+    margin-left: 36%;
+    margin-right: 35%;
+    background-color: #fff;
+    height: 700px;
+    padding-top: 10px;
+  }
+  .list {
+    list-style-type: none;
+    font-size: inherit;
+    border-bottom: 2px solid #ff8a65;
+    float: left;
+    width: 98%;
+    height: 100%;
+}
+h6{
+  width: 150px;
+}
+
+  .topbar {
+    background-color: rgb(94, 255, 0);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+</style>
+
+<body>
+  <div class="container-fluid topbar">
+    <div class="row" style=" margin: 4px;margin-left: -2px;  ">
+      <div class="cl-2">
+        <img
+          src="https://vignette.wikia.nocookie.net/gtawiki/images/e/ee/GTAWiki-Todo-Checklist.png/revision/latest?cb=20151027125135"
+          width="50" height="50" alt="img">
+      </div>
+      <div class="cl-1 m-3"></div>
+      <div class="cl-2">
+        <h1 class="cl-2">TODO APP</h1>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="todo">
+    <div class="litext">
+
+      <input placeholder="Enter todo" type="text" id="todo_item">
+      <button onclick="addTodo()">ADD ITEM</button>
+      <button onclick="deleteAll()">DELETE ALL</button>
+
+
+    </div>
+    <div>
+      <ol id="list">
+
+      </ol>
+
+    </div>
+  </div>
+</div>
+  <!-- Optional JavaScript -->
+  <script src="app.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="../code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="../stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+
+<!-- Mirrored from todo-app-wm5689.web.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Aug 2020 06:09:06 GMT -->
+</html>
